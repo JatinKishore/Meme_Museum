@@ -2,15 +2,15 @@
 
 # Define IBM Cloud provider
 provider "ibm" {
-  ibmcloud_api_key = var.ibmcloud_api_key
-  region           = var.region
+  ibmcloud_api_key = "abc123def456ghi789jkl0mno1pqrs2tuvwxy3z"
+  region           = "us-south"
 }
 
 # Create IBM Kubernetes Cluster
 resource "ibm_container_cluster" "my_cluster" {
   name            = "my-cluster"
-  location        = var.region
-  resource_group  = var.resource_group
+  location        = "us-south"
+  resource_group  = "my-resource-group"
   kube_version    = "1.21.7"
   machine_type    = "b3c.8x32"
   workers         = 2
