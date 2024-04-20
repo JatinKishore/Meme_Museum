@@ -38,7 +38,10 @@ This project is a Flask application that generates memes and jokes based on user
 4. Enjoy the memes and jokes generated!
 
 ## Contributors
-- Your Name <email@example.com>
+- JATIN KISHORE M <jatinkm02@gmail.com>
+- HEMANTH KUMAR U
+- VIGNESH S
+- DEVARAJYA PRIYAN S
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
