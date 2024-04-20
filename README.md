@@ -8,14 +8,13 @@ This project is a Flask application that generates memes and jokes based on user
 - API integration for fetching content.
 - Deployed on IBM Cloud using Docker and Kubernetes for scalability and robustness.
 - Implemented stringent security policies to mitigate cyber threats.
-- Utilized CI/CD tools like Jenkins, Ansible, and Terraform for automated deployment.
+- Utilized CI/CD tools like  Ansible, and Terraform for automated deployment.
 
 ## Technologies Used
 - Python Flask
 - IBM Cloud
 - Docker
 - Kubernetes
-- Jenkins
 - Ansible
 - Terraform
 
