@@ -19,7 +19,7 @@ This project is a Flask application that generates memes and jokes based on user
 - Terraform
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/yourusername/memes-and-jokes-generator.git`
+1. Clone the repository: `git clone https://github.com/JatinKishore/memes-and-jokes-generator.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up environment variables (if applicable).
 4. Run the application: `python app.py`
