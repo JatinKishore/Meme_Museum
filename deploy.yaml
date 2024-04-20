@@ -1,0 +1,28 @@
+# deploy.yaml
+
+- name: Deploy Memes and Jokes Generator
+  hosts: all
+  become: yes
+  tasks:
+    - name: Ensure Docker is installed
+      yum:
+        name: docker-ce
+        state: present
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Pull Docker image
+      docker_image:
+        name: yourdockerregistry/memes-and-jokes
+        state: present
+
+    - name: Run Docker container
+      docker_container:
+        name: memes-and-jokes-container
+        image: yourdockerregistry/memes-and-jokes
+        state: started
+        ports:
+          - "80:5000"
